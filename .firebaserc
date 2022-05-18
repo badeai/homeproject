@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "homeproject-cea3e": {
+      "hosting": {
+        "homeproject": [
+          "homeproject-cea3e"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "homeproject-cea3e"
+  }
+}
