@@ -21,10 +21,11 @@
         <a class="nav-link" routerLink="/shopping-cart">Shopping Cart</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+        <a class="nav-link disabled hidden" href="#">Disabled</a>
       </li>
-      <li class="nav-item dropdown">
+      <li ngbDropdown class="nav-item dropdown">
         <a
+          ngbDropdownToggle
           class="nav-link dropdown-toggle"
           href="#"
           id="dropdown01"
@@ -33,7 +34,7 @@
           aria-expanded="false"
           >Dropdown</a
         >
-        <div class="dropdown-menu" aria-labelledby="dropdown01">
+        <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="dropdown01">
           <a class="dropdown-item" href="#">Action</a>
           <a class="dropdown-item" href="#">Another Action</a>
           <a class="dropdown-item" href="#">Something else</a>
