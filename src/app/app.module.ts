@@ -1,3 +1,4 @@
+import { CategoryService } from './category.service';
 import { environment } from './../environments/environment';
 
 import { BrowserModule } from '@angular/platform-browser';
@@ -57,7 +58,7 @@ import { ProductFormComponent } from './admin/product-form/product-form.componen
       { path: 'admin/orders', component: AdminOrdersComponent },
     ]),
   ],
-  providers: [],
+  providers: [CategoryService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
